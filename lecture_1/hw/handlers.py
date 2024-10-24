@@ -1,6 +1,6 @@
 import json
-from math_functions import factorial, fibonacci, mean
-from utils import send_json
+from lecture_1.hw.math_functions import factorial, fibonacci, mean
+from lecture_1.hw.utils import send_json
 
 from typing import Any, Callable, Awaitable
 

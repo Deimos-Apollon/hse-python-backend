@@ -1,5 +1,5 @@
-from handlers import get_factorial, get_fibonacci, get_mean
-from utils import read_body, send_json
+from lecture_1.hw.handlers import get_factorial, get_fibonacci, get_mean
+from lecture_1.hw.utils import read_body, send_json
 
 from typing import Any, Callable, Awaitable
 from urllib.parse import parse_qs
