@@ -4,7 +4,7 @@ from typing import Any
 import pytest
 from async_asgi_testclient import TestClient
 
-from lecture_1.hw.math_plain_asgi import app
+from lecture_1.hw.main import app
 
 
 @pytest.mark.xfail()
